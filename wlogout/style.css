@@ -1,0 +1,85 @@
+* {
+background-image: none;
+box-shadow: none;
+}
+
+/* Fondo general (antes negro → ahora azul oscuro translúcido) */
+window {
+	background-color: rgba(5, 20, 35, 0.55);
+}
+
+/* Botones base */
+button {
+	border-radius: 150px;
+
+	border-color: rgba(0, 180, 255, 0.25);
+
+	color: white;
+	font-size: 20px;
+
+	/* antes gris → ahora azul oscuro */
+	background-color: rgba(10, 25, 40, 0.85);
+
+	border-style: solid;
+	border-width: 1px;
+
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 25%;
+
+	margin: 20px;
+
+	transition:
+	background-color 200ms ease,
+	border-color 200ms ease;
+}
+
+/* hover (azul más vivo) */
+button:hover {
+	background-color: rgba(0, 140, 255, 0.25);
+	border-color: rgba(0, 200, 255, 0.6);
+}
+
+/* click */
+button:active {
+	background-color: rgba(0, 180, 255, 0.35);
+}
+
+/* focus */
+button:focus {
+	outline: none;
+}
+
+/* ICONOS (sin cambio obligatorio, pero puedes ajustar brillo) */
+#lock {
+background-image: image(url("icons/lock.png"));
+}
+
+#logout {
+background-image: image(url("icons/logout.png"));
+}
+
+#suspend {
+background-image: image(url("icons/suspend.png"));
+}
+
+#shutdown {
+background-image: image(url("icons/shutdown.png"));
+}
+
+#reboot {
+background-image: image(url("icons/reboot.png"));
+}
+
+/* PERFIL */
+#Profile {
+background-image: image(url("icons/logo.png"));
+background-size: 100%;
+background-position: center;
+background-repeat: no-repeat;
+
+font-size: 30px;
+color: rgba(0, 200, 255, 0.6);
+
+border-color: rgba(0, 200, 255, 0.4);
+}

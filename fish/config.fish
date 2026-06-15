@@ -7,6 +7,7 @@ alias q "paru -Qs"
 alias ss "pacman -Ss"
 alias r "pacman -Rns"
 
+
 starship init fish | source
 
 # overwrite greeting
