@@ -31,7 +31,7 @@ configuration {
     fg:             #e8e8f0;
     fg-muted:       #ffffff;
     fg-btn:         #babbf1;
-    fg-btn-active:  rgba(26, 20, 38, 0.95);
+    fg-btn-active:  rgba(16, 20, 38, 0.95);
     border-win:     rgba(137, 220, 235, 1.0);
     fg-prompt:      rgb(243, 139, 168);
 }
@@ -103,13 +103,13 @@ element selected {
 }
 
 element-icon {
-    background-color: transparent;
+    background-color: gray;
     size:             64px;
     horizontal-align: 0.5;
 }
 
 element-text {
-    background-color: transparent;
+    background-color: gray;
     text-color:       @fg-muted;
     horizontal-align: 0.5;
     font:             "JetBrainsMono Nerd Font 11";

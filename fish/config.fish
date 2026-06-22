@@ -6,7 +6,7 @@ alias q "paru -Qs"
 
 alias ss "pacman -Ss"
 alias r "pacman -Rns"
-
+alias fixportal "killall xdg-desktop-portal; killall xdg-desktop-portal-hyprland; /usr/lib/xdg-desktop-portal & disown"
 
 starship init fish | source
 
