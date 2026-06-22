@@ -51,7 +51,7 @@ System information
 Notification center integration
 Dynamic Colors
 
-Matugen can generate color schemes automatically from wallpapers and apply them to Waybar and other desktop components.
+Wallust can generate color schemes automatically from wallpapers and apply them to Waybar and other desktop components.
 
 Installation
 
