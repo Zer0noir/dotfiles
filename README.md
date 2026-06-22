@@ -13,7 +13,7 @@ Kitty
 Starship
 SwayNC
 Thunar
-Matugen
+Wallust
 
 Designed for daily development, networking labs, virtualization, media consumption and gaming.
 
@@ -28,8 +28,8 @@ Notifications	SwayNC
 File Manager	Thunar
 Shell	fish
 Prompt	Starship
-Wallpaper 	hyprpaper
-Color Generator	Matugen
+Wallpaper 	awww
+Color Generator	Wallust
 Authentication Agent	Polkit KDE Agent
 Features
 Hyprland
@@ -72,9 +72,8 @@ starship
 swaync
 thunar
 wlogout
-hyprpaper
 hyprlock
-matugen
+wallust
 Utilities
 playerctl
 brightnessctl
@@ -89,6 +88,7 @@ cava
 mpv
 strawberry
 qview
+waypaper
 Keybindings
 Shortcut	Action
 SUPER + Q	Terminal
@@ -102,6 +102,7 @@ SUPER + V	Toggle Floating
 SUPER + S	Toggle Scratchpad
 SUPER + 1-0	Switch Workspace
 SUPER + SHIFT + 1-0	Move Window to Workspace
+SUPER + O Waypaper
 Screenshots
 
 Screenshots will be added later.
