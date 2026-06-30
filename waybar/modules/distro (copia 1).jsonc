@@ -1,0 +1,42 @@
+{
+  "custom/distro": {
+    "format": "",
+    "on-click": "rofi -show drun",
+    "tooltip": false
+  },
+  "custom/terminal": {
+    "format": "󰆍",
+    "on-click": "kitty",
+    "tooltip": false
+  },
+  "custom/code": {
+    "format": "󰨞",
+    "on-click": "VSCodium",
+    "tooltip": false
+  },
+  "custom/obsidian": {
+    "format": "󰹕",
+    "on-click": "ark",
+    "tooltip": false
+  },
+  "custom/office": {
+    "format": "󰏆",
+    "on-click": "onlyoffice-desktopeditors",
+    "tooltip": false
+  },
+  "custom/files": {
+    "format": "",
+    "on-click": "thunar",
+    "tooltip": false
+  },
+  "custom/spotify": {
+    "format": "",
+    "on-click": "steam",
+    "tooltip": false
+  },
+  "custom/browser": {
+    "format": "",
+    "on-click": "zen-browser",
+    "tooltip": false
+  }
+}

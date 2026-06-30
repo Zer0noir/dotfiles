@@ -1,0 +1,7 @@
+{
+"custom/brightness": {
+    "exec": "brightnessctl -m | cut -d',' -f4",
+    "interval": 1,
+    "format": "󰃠  {}"
+}
+}
